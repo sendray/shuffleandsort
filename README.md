@@ -20,3 +20,10 @@ Folder contains
 
 * Just open the index.html file in the browser to see the output after extracting the zipped file.
 
+
+## LivePreview
+
+You can checkout the live preview using the below link
+
+* http://htmlpreview.github.io/?https://github.com/sendray/shuffleandsort/blob/main/index.html
+
