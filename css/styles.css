@@ -1,0 +1,142 @@
+body {
+    font-family: sans-serif;
+    font-size: 1rem;
+    overflow: hidden;
+    margin: 0;
+}
+.page-container {
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #EFEFEF;
+    border-top: 4px solid #BFBFBF;
+}
+.content-area {
+    display: flex;
+}
+.item {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 5rem;
+    padding: 30px;
+}
+.author-by {
+    padding: 2rem;
+    text-align: center;
+    font-size: 14px;
+}
+/*
+ * Button styles
+ */
+.button-container {
+    width: 40%;
+    margin-top: 2rem;
+}
+.button {
+    background-color: #72C3DC;
+    border-radius: 4px;
+    box-shadow: 0px 5px #2B8EAD;
+    padding: 0.75rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: auto auto 2rem auto;
+    width: 60%;
+    text-transform: uppercase;
+}
+
+/*
+ * Grid styles
+ */
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 60%;
+}
+.grid-title {
+    color: #333333;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+}
+.item {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 5rem;
+    padding: 30px;
+}
+.bg-color-1 {
+    background-color: #6F98A8;
+}
+.bg-color-2 {
+    background-color: #2B8EAD;
+}
+.bg-color-3 {
+    background-color: #2F454E;
+}
+.bg-color-4 {
+    background-color: #BFBFBF;
+}
+.button-container-mobile {
+    display: none;
+}
+
+
+/*
+ * Media queries for below 768px
+ */
+@media only screen and (max-width: 567px) {
+    .page-container {
+        background-color: #FFFFFF;
+        border: none;
+    }
+    .grid-title {
+        background-color: #333333;
+        color: #FFFFFF;
+        font-weight: normal;
+    }
+    .content-area {
+        display: block;
+    }
+    .grid {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .item {
+        padding: 0.5rem;
+        font-size: 1.05rem;
+        background-color: #EFEFEF;
+        color: #000000;
+        margin-bottom: 0.5rem;
+    }
+    .bg-color-1 {
+        border-left: 0.5rem solid #6F98A8;
+    }
+    .bg-color-2 {
+        border-left: 0.5rem solid #2B8EAD;
+    }
+    .bg-color-3 {
+        border-left: 0.5rem solid #2F454E;
+    }
+    .bg-color-4 {
+        border-left: 0.5rem solid #BFBFBF;
+    }
+    .button-container {
+        display: none;
+    }
+    .button-container-mobile {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .button {
+        margin: 0.5rem 0.5rem 1rem 0;
+        padding: 0.5rem;
+        font-size: 13px;
+    }
+    .author-by {
+        font-size: 13px;
+        padding: 1rem;
+    }
+}
