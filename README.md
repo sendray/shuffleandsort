@@ -1,10 +1,10 @@
 # Shuffle and Sort using JavaScript with ES6 features.
 
 
-- [ ] Shuffle elements randomly
-- [ ] Sort elements from 1 - 9
-- [ ] Responsive web design
-- [ ] Tested in chorme and firefox
+- [x] Shuffle elements randomly
+- [x] Sort elements from 1 - 9
+- [x] Responsive web design
+- [x] Tested in chorme and firefox
 
 ## Steps to follows
 
